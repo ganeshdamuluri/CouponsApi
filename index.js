@@ -19,6 +19,11 @@ app.listen(port, function () {
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
+/*BodyParser Middleware */
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended:false}));
+app.use(cookieParser());
+
 /* Router configuration */
 const REST_API_ROOT = '/api';
 app.use(REST_API_ROOT, require('./app/routes/router'));

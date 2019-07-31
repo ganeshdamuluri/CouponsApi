@@ -7,6 +7,13 @@
     "body-parser": "*",
     "ejs": "*",
     "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
     "sqlite": "*",
     "bluebird": "*"
   },
