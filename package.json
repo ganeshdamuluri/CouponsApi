@@ -4,7 +4,9 @@
   "description": "POC - coupon system",
   "author": "Ganesh Damuluri https://github.com/ganeshdamuluri",
   "dependencies": {
+    "bluebird": "*",
     "body-parser": "*",
+    "cookie-parser": "^1.4.4",
     "ejs": "*",
     "express": "*",
     "express-handlebars": "*",
@@ -14,8 +16,7 @@
     "passport": "*",
     "passport-http": "*",
     "passport-local": "*",
-    "sqlite": "*",
-    "bluebird": "*"
+    "sqlite": "*"
   },
   "license": "LGPL-3.0",
   "bugs": {
